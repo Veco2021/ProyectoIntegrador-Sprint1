@@ -213,15 +213,13 @@
 }
 
 /* footer */
-.footer {
+footer {
   height: 50px;
   background-color: var(--primary-color);
   width: 100%;
   position: fixed;
   bottom: 0;
   left: 0;
-  /* BORRAR */
-  display: none;
 }
 
 /* new form LOGIN*/
@@ -373,6 +371,41 @@
 
 .form-singin-btn-submit {
   margin-top: 10px;
+}
+
+.f-container {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  background-color: #1DBEB4;
+  padding: 1rem;
+  position: 'fixed';
+  bottom: 0;
+  height: 58px;
+  width: 100%;
+  font-family: "Roboto";
+  size: 14px;
+  color: white;
+
+}
+
+.f-txt-container{
+  display: flex;
+  justify-content:left;
+}
+
+.f-img-container{
+  display: flex;
+  justify-content:right;
+  gap: 30px;
+  margin-right: 1rem;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 14px;
+  color: #FFFFFF;
+  font-weight: 700;
+  text-align: left;
+  margin-left: 19px;
 }
 
 @media (max-width: 768px) {
